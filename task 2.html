@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Module 2 practice task</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      #Embedded {
+        font-size: larger;
+        border: 3px solid red;
+        display: inline-block;
+        padding: 5px;
+        /*display: block;*/
+      }
+    </style>
   </head>
   <body>
     <header class="header">
@@ -22,10 +31,17 @@
     </section>
     <section>
       <div>
-        <p>
+        <p id="alignment">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
           architecto nostrum porro fugiat beatae incidunt excepturi nihil
           repudiandae! Ipsum officia ducimus laboriosam ad porro cumque ex
+          magnam unde doloribus necessitatibus?Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Ipsum architecto nostrum porro fugiat
+          beatae incidunt excepturi nihil repudiandae! Ipsum officia ducimus
+          laboriosam ad porro cumque ex magnam unde doloribus
+          necessitatibus?Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Ipsum architecto nostrum porro fugiat beatae incidunt excepturi
+          nihil repudiandae! Ipsum officia ducimus laboriosam ad porro cumque ex
           magnam unde doloribus necessitatibus?
         </p>
       </div>
@@ -44,9 +60,11 @@
       <div>
         <p>Here we will practice-</p>
         <ul>
-          <li>Inline CSS</li>
-          <li>Embedded or Internal</li>
-          <li>External</li>
+          <li style="background-color: black; color: white; width: 30%">
+            Inline CSS
+          </li>
+          <li id="Embedded">Embedded or Internal</li>
+          <li class="External">External</li>
         </ul>
       </div>
     </section>
